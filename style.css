@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+.logo{
+    width: 50px;
+    margin-top: 10px
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .btn{
+    padding: 6px 25px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.content{
+    margin-top: 12%;
+    position: relative;
+}
+.content h1{
+    font-size: 60px;
+}
+.content h1 i{
+    color: orange;
+}
+.content p{
+    font-size: 30px;
+    width: 500px;
+}
+.content a{
+    padding: 6px 25px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff; 
+    position: absolute;
+    top: 110%;
+}
+.content a:hover{
+    background-color: none;
+}
+.coin-list{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 270px;
+   
+}
+.coin{
+    width: 170px;
+    border: 1px solid orange;
+    margin: 70px 10px 5px 20px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+    color: orange;
+    box-shadow: 0 5px 5px ;
+    display: flex;
+}
+.coin div{
+    margin-left: 15px;
+}
+.coin:hover{
+    background-color: #fff;
+}
+.coin img{
+    width: 50px;
+    padding: 5px;
+    margin-left: 5px;
+}
